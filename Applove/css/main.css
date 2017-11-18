@@ -1,0 +1,188 @@
+/*CLASES REUTILIZABLES*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 14px;
+  padding-right: 14px;
+}
+
+
+.container:before, .container:after {
+  content: " ";
+  display: table;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container:after {
+  clear: both;
+}
+
+.mb-0 {
+  margin-bottom: 0px;
+}
+
+.mt-0 {
+  margin-top: 0px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+/*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
+}
+
+header div .menu-item {
+  margin: 20px 40px;
+  font-weight: bold;
+}
+
+header > .menu-list-container {
+  margin: 20px 40px;
+}
+
+header {
+  position: fixed;
+  background-color: white;
+  width: 100%;
+}
+
+footer {
+  background-color: #373B47;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+
+#seccion1 {
+  background-image: url('../assets/images/bg-home.jpg');
+  background-size: cover;
+  text-align: center;
+  color: white;
+  height: 500px;
+}
+
+#section1 > div {
+  padding-top: 8px;
+}
+
+#seccion1 >div> h1 {
+  font-size: 50px;
+  padding-top: 20px;
+}
+
+#seccion1 > div > .button {
+  background: green;
+  padding: 10px 20px;
+  color: white;
+  margin-top: 22px;
+  display: inline-block;
+}
+
+#seccion2 >div >h2 {
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+#seccion2 {
+  background-color: #f17B75;
+  text-align: center;
+  color: white;
+  padding: 50px 0;
+}
+
+#seccion2 > div >div > img {
+  width: 200px;
+}
+
+#seccion2 >div >div {
+  display: inline-block;
+  margin: 20px 35px;
+}
+
+#seccion3 > div {
+  text-align: center;
+  margin: 50px 0;
+}
+
+#seccion3 >div > img {
+  width: 68%;
+}
+
+#proyectos >div > img {
+  width: 200px;
+}
+
+#proyectos > div {
+  display: inline-block;
+  margin: 0 80px;
+}
+
+#proyectos {
+  text-align: center;
+}
+
+.logo {
+  width: 40px;
+  margin-right: 50px;
+  margin-top: 15px;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-rigth {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}

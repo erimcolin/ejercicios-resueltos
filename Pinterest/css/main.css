@@ -1,0 +1,63 @@
+body {
+  background: pink;
+  margin: 0;
+}
+
+input[type='text'] {
+  width: 60%;
+  background-color: #e3e3e3;
+  border: none;
+  height: 30px;
+}
+
+main {
+  padding: 200px;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+}
+
+select {
+  background-color: grey;
+  border: none;
+  height: 30px;
+  width: 40px;
+}
+
+.contenedor-iconos > img {
+  margin: 10px;
+}
+
+.clear {
+  text-align: center;
+}
+
+.columna {
+  display: inline-block;
+  width: 310px;
+  vertical-align: top;
+}
+
+.contenedor-iconos {
+  display: inline-block;
+  width: 30%;
+}
+
+.contenedor-items > p {
+  display: inline-block;
+  background-color: lightblue;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 15px;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-center {
+  text-align: center;
+}
